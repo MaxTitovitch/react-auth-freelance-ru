@@ -79,3 +79,10 @@ export const emailType = () => {
         return null;
     }
 }
+
+// Правило валидации подтверждения пароля ("Введите ещё раз")
+export const confirmationType = (compare) => {
+    return field => {
+        return field !== compare ? 'Пароли должны совпадать' : null
+    }
+}

@@ -86,7 +86,7 @@ function Login() {
                     <Link to="/change-password-request">Забыли пароль?</Link>
                     <div className={styles.LoginLinksBlue}>
                         <span>Еще нет аккаунта?</span>
-                        <Link to="/register">Создать аккаунт?</Link>
+                        <Link to="/register">Создать аккаунт</Link>
                     </div>
                 </div>
             </div>
