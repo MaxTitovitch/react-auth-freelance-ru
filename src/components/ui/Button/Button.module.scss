@@ -1,0 +1,77 @@
+
+.Button {
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+
+  border: unset;
+  border: 2px solid black;
+  border-radius: 5px;
+
+  font-size: 20px;
+  line-height: 24px;
+  padding: 13px 42px;
+  min-width: 210px;
+
+  &.small {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 26px;
+    min-width: unset;
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+  }
+
+  &.filled {
+    &:hover {
+      opacity: .9;
+    }
+
+    &.green {
+      background: #2EB27C;
+      color: white;
+
+      &.disabled {
+        border-color: #2EB27C;
+        color: black;
+        background: transparent;
+      }
+    }
+
+    &.blue {
+      background: #3c36f0;
+      color: white;
+
+      &.disabled {
+        border-color: #3c36f0;
+        color: black;
+        background: transparent;
+      }
+    }
+  }
+
+  &.green {
+    border-color: #2EB27C;
+
+    &:hover {
+      background: #2EB27C;
+      color: white;
+    }
+  }
+
+  &.blue {
+    border-color: #3c36f0;
+
+    &:hover {
+      background: #3c36f0;
+      color: white;
+    }
+  }
+
+  &.roboto {
+    font-family: "Roboto", sans-serif;
+  }
+}

@@ -1,0 +1,72 @@
+.App {
+  background-color: #eef2f2;
+  width: 100%;
+  min-height: calc(100vh - 1px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  &Header {
+    width: 100%;
+    height: 100px;
+    background-color: #FBFBFB;
+    box-shadow: 0 4px 4px 0 #0000001A;
+    display: flex;
+    justify-content: center;
+
+    &Wrap {
+      height: 100%;
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 50px;
+      gap: 20px;
+    }
+  }
+
+  &Main {
+    max-width: 685px;
+    width: calc(100% - 80px);
+    background: #FBFBFB;
+    box-shadow: 0 4px 20px 0 #06184780;
+    padding: 38px 30px;
+    border-radius: 5px;
+    margin: 40px 0;
+
+    h1 {
+      width: 100%;
+      text-align: center;
+      font-family: "Inter", sans-serif;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 38px;
+      margin-bottom: 35px;
+    }
+
+    & > div {
+      min-height: 360px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-between;
+      align-items: center;
+
+      & > div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  &Footer {
+    border-top: 1px solid #AEAEAE;
+    width: 100%;
+    height: 80px;
+  }
+}
