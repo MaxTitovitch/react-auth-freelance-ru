@@ -13,7 +13,7 @@
   line-height: 24px;
   padding: 13px 42px;
   min-width: 210px;
-  transition: .7s;
+  transition: background-color .7s, border .7s, color .1s;
 
   &.small {
     font-size: 18px;
