@@ -1,1 +1,46 @@
 
+.EmailConfirmation {
+
+  &Send {
+    cursor: pointer;
+
+    margin-left: 5px;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    font-weight: 400;
+    text-decoration: none;
+    transition: .3s;
+
+    &:hover {
+      border-bottom-color: transparent;
+    }
+  }
+
+  &Text {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 75%;
+    padding-bottom: 55px;
+    text-align: center;
+
+    & > *:not(:last-child) {
+      margin-bottom: 25px;
+    }
+
+
+    a {
+      margin-left: 5px;
+      color: #3C36F0;
+      border-bottom: 2px solid #3C36F0;
+      font-weight: 400;
+      text-decoration: none;
+      transition: .3s;
+
+      &:hover {
+        border-bottom-color: transparent;
+      }
+    }
+  }
+}
