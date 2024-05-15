@@ -26,13 +26,13 @@
   }
 
   &.filled {
-    &:hover {
-      opacity: .9;
-    }
-
     &.green {
       background: #2EB27C;
       color: white;
+
+      &:hover {
+        opacity: .9;
+      }
 
       &.disabled {
         border-color: #2EB27C;
@@ -44,6 +44,11 @@
     &.blue {
       background: #3c36f0;
       color: white;
+
+      &:hover, &:active {
+        background: #2EB27C;
+        border-color: #2EB27C;
+      }
 
       &.disabled {
         border-color: #3c36f0;

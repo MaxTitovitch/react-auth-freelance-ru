@@ -19,6 +19,7 @@
     position: absolute;
     top: 66px;
     left: 0;
+    transition: 1s;
   }
 
   &Field {
@@ -35,11 +36,13 @@
     &:active, &:focus {
       border: 1px solid #2EB27C;
       outline: 1px solid #2EB27C;
+      transition: 1s;
     }
 
     &.error {
       border: 1px solid #F53535;
       outline: 1px solid #F53535;
+      transition: 1s;
     }
   }
 
