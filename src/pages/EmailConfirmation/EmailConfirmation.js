@@ -32,7 +32,7 @@ function EmailConfirmation() {
     return (
         <div className={styles.EmailConfirmation}>
             <div>
-                <h1>Письмо с отправлено на почту</h1>
+                <h1>Письмо отправлено на почту</h1>
 
                 <div className={styles.EmailConfirmationText}>
                     <div>

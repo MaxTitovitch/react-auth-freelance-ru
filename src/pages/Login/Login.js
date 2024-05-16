@@ -20,7 +20,7 @@ function Login() {
                     password: 'Пароль мне просто не понравился (рандом - вероятность 50%)',
                 })
             } else {
-                navigate('/email-confurmed?mail=' + model.email)
+                navigate('/email-confirmed?mail=' + model.email)
             }
         }
     }

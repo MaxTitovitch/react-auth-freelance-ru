@@ -15,7 +15,7 @@ function Router() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/email-confirmation" element={<EmailConfirmation />} />
-            <Route path="/email-confurmed" element={<EmailConfirmed />} />
+            <Route path="/email-confirmed" element={<EmailConfirmed />} />
             <Route path="/change-password" element={<ChangePassword />} />
             <Route path="/change-password-request" element={<ChangePasswordRequest />} />
         </Routes>

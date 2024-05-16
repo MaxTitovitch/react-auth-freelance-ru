@@ -21,7 +21,7 @@ function Register() {
                     confirmation: 'Пароль не совпадал (рандом - вероятность 50%)',
                 })
             } else {
-                navigate('/email-confurmed?mail=' + model.email)
+                navigate('/email-confirmation?mail=' + model.email)
             }
         }
     }

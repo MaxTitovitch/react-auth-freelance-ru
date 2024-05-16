@@ -11,7 +11,7 @@ function EmailConfirmed() {
     return (
         <div className={styles.EmailConfirmed}>
             <div>
-                <h1>Письмо с отправлено на почту</h1>
+                <h1>Письмо отправлено на почту</h1>
 
                 <div className={styles.EmailConfirmedText}>
                     <span>

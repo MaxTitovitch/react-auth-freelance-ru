@@ -7,7 +7,7 @@ function Index() {
         <Link to="/login">Вход</Link>
         <Link to="/register">Регистрация</Link>
         <Link to="/email-confirmation?mail=pochta@gmail.com">Подтверждение email</Link>
-        <Link to="/email-confurmed?mail=pochta@gmail.com">Email подтвержден</Link>
+        <Link to="/email-confirmed?mail=pochta@gmail.com">Email подтвержден</Link>
         <Link to="/change-password">Смена пароля</Link>
         <Link to="/change-password-request">Запрос смены пароля</Link>
     </div>
